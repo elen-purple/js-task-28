@@ -2,12 +2,11 @@
   "name": "js-task-28",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "https://elen-purple.github.io/js-tasks-28/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
